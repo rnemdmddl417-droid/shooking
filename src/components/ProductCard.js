@@ -1,19 +1,18 @@
-import React from "react";
-import "./ProductCard.css";
-import shoeImage from "../assets/shoe.jpg";
+import React from 'react';
+import './ProductCard.css';
 
-function ProductCard() {
+function ProductCard({ image, title, description, price, onAdd }) {
   return (
     <div className="product-card">
-      <img src={shoeImage} alt="상품 이미지" className="product-image" />
+      <img src={image} alt={title} className="product-image" />
       <div className="product-info">
-        <h3 className="product-title">브랜드 A</h3>
-        <p className="product-description">편안하고 착용감이 좋은 신발</p>
+        <h3 className="product-title">{title}</h3>
+        <p className="product-description">{description}</p>
 
-        {/* 가격과 버튼 같은 줄 */}
         <div className="price-btn-container">
-          <span className="product-price">35,000원</span>
-          <button className="product-btn">담기</button>
+          <span className="product-price">{price}</span>
+          {/* type="button"으로 명시 — form내에서 submit 되는 걸 방지 */}
+          <button type="button" className="product-btn" onClick={onAdd}>담기</button>
         </div>
       </div>
     </div>

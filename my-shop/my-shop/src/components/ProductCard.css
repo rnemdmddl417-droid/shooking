@@ -1,5 +1,5 @@
 .product-card {
-  width: 300px;
+  width: 300px; /* 가로비율 약간 늘림 */
   border: 1px solid #e0e0e0;
   border-radius: 12px;
   overflow: hidden;
@@ -24,7 +24,7 @@
 }
 
 .product-title {
-  font-size: 1.4rem;
+  font-size: 1.4rem; /* 브랜드명 크기 키움 */
   font-weight: 700;
   margin-bottom: 8px;
   color: #111;
@@ -36,6 +36,7 @@
   margin-bottom: 20px;
 }
 
+/* ✅ 가격 + 버튼 같은 줄 */
 .price-btn-container {
   display: flex;
   align-items: center;
@@ -43,18 +44,20 @@
   position: relative;
 }
 
+/* 가격 */
 .product-price {
   font-weight: bold;
   font-size: 1.2rem;
   color: #111;
 }
 
+/* ✅ 버튼을 오른쪽 모서리 쪽으로 띄움 */
 .product-btn {
   position: absolute;
-  right: 0;
-  transform: translateY(-20%);
+  right: 0;         /* 카드 오른쪽 끝으로 */
+  transform: translateY(-20%); /* 살짝 위로 띄우기 */
   padding: 8px 20px;
-  border-radius: 999px;
+  border-radius: 999px; /* pill 모양 */
   border: none;
   background-color: #111;
   color: white;
@@ -64,34 +67,4 @@
 
 .product-btn:hover {
   background-color: #333;
-}
-.header {
-  position: relative; /* 부모 기준 */
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 20px;
-  background-color: black;
-}
-
-.cart-icon {
-  font-size: 32px;
-  color: white;
-  position: relative; /* 뱃지 위치 기준 */
-}
-
-.cart-count {
-  position: absolute;
-  top:10px;     /* 아이콘 위로 이동 */
-  right: 8px;  /* 아이콘 오른쪽으로 이동 */
-  background-color: crimson;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

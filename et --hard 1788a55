@@ -1,0 +1,23 @@
+[33mcommit 8f015e94c83c845fa45c7343e1185911c6675463[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: rnemdmddl417 <rnemdmddl417@gmail.com>
+Date:   Fri Oct 10 00:52:42 2025 +0900
+
+    상품카드 UI 완성: 가격-버튼 정렬, 디자인 개선
+
+[33mcommit 924a64a898e2b0d30f9086819f244de5290755ef[m
+Author: rnemdmddl417 <rnemdmddl417@gmail.com>
+Date:   Wed Oct 8 04:15:21 2025 +0900
+
+    상품 카드 UI 수정
+
+[33mcommit 14b0c1d0fc9d2f3f045ae7cb5776101e460cbeac[m
+Author: rnemdmddl417 <rnemdmddl417@gmail.com>
+Date:   Wed Oct 8 02:10:34 2025 +0900
+
+    첫 커밋: 상품 카드제작
+
+[33mcommit be8cc461389037f67ff0648f5cf12f62e81a5fad[m
+Author: rnemdmddl417-droid <rnemdmddl417@gmail.com>
+Date:   Wed Oct 8 02:16:18 2025 +0900
+
+    Initial commit
