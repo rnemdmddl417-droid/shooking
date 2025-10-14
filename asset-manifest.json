@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shooking/static/css/main.2d9c319b.css",
-    "main.js": "/shooking/static/js/main.55cff9b7.js",
+    "main.js": "/shooking/static/js/main.0932c8e9.js",
     "static/media/shoe2.jpg": "/shooking/static/media/shoe2.b5ca98da5150a8875230.jpg",
     "static/media/shoe9.jpg": "/shooking/static/media/shoe9.ba60aa8ccfef3d8db6a5.jpg",
     "static/media/shoe5.jpg": "/shooking/static/media/shoe5.6a2692d66ccf75b78c23.jpg",
@@ -13,10 +13,10 @@
     "static/media/shoe3.jpg": "/shooking/static/media/shoe3.49a10650ab860aaf003f.jpg",
     "index.html": "/shooking/index.html",
     "main.2d9c319b.css.map": "/shooking/static/css/main.2d9c319b.css.map",
-    "main.55cff9b7.js.map": "/shooking/static/js/main.55cff9b7.js.map"
+    "main.0932c8e9.js.map": "/shooking/static/js/main.0932c8e9.js.map"
   },
   "entrypoints": [
     "static/css/main.2d9c319b.css",
-    "static/js/main.55cff9b7.js"
+    "static/js/main.0932c8e9.js"
   ]
 }
